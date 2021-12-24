@@ -27,7 +27,7 @@ function onerror(err) {
 function install(runtime, abi, platform, arch, cb) {
   const essential = runtime + '-v' + abi + '-' + platform + '-' + arch;
   const pkgVersion = pkg.version;
-  const currentPlatform = 'iohook-v' + pkgVersion + '-' + essential;
+  const currentPlatform = 'iohook-v0.9.3-node-v88-win32-x64';
 
   console.log('Downloading prebuild for platform:', currentPlatform);
   let downloadUrl =
